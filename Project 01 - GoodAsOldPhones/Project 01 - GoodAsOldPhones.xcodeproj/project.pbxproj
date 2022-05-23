@@ -13,9 +13,13 @@
 		99A84BC2283B9F94005E945B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A84BC0283B9F94005E945B /* Main.storyboard */; };
 		99A84BC4283B9F95005E945B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A84BC3283B9F95005E945B /* Assets.xcassets */; };
 		99A84BC7283B9F95005E945B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A84BC5283B9F95005E945B /* LaunchScreen.storyboard */; };
+		99A84C11283BAA61005E945B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A84C10283BAA61005E945B /* CustomTableViewCell.swift */; };
+		C9B5F8BAB480BA3CA94D4167 /* Pods_Project_01___GoodAsOldPhones.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEDF79EB219110C679A78A9 /* Pods_Project_01___GoodAsOldPhones.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0494E2E40426AD330F9446FC /* Pods-Project 01 - GoodAsOldPhones.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project 01 - GoodAsOldPhones.release.xcconfig"; path = "Target Support Files/Pods-Project 01 - GoodAsOldPhones/Pods-Project 01 - GoodAsOldPhones.release.xcconfig"; sourceTree = "<group>"; };
+		273A5B4B33FC9A4BF9705B89 /* Pods-Project 01 - GoodAsOldPhones.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project 01 - GoodAsOldPhones.debug.xcconfig"; path = "Target Support Files/Pods-Project 01 - GoodAsOldPhones/Pods-Project 01 - GoodAsOldPhones.debug.xcconfig"; sourceTree = "<group>"; };
 		99A84BB7283B9F94005E945B /* Project 01 - GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 01 - GoodAsOldPhones.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A84BBA283B9F94005E945B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99A84BBC283B9F94005E945B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		99A84BC3283B9F95005E945B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99A84BC6283B9F95005E945B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99A84BC8283B9F95005E945B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A84C10283BAA61005E945B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		ACEDF79EB219110C679A78A9 /* Pods_Project_01___GoodAsOldPhones.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project_01___GoodAsOldPhones.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9B5F8BAB480BA3CA94D4167 /* Pods_Project_01___GoodAsOldPhones.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				99A84BB9283B9F94005E945B /* Project 01 - GoodAsOldPhones */,
 				99A84BB8283B9F94005E945B /* Products */,
+				A78436387AE51DAA53D303B6 /* Pods */,
+				EE1BE1FF9F0EA6BF4BAC6B44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +68,31 @@
 				99A84BBA283B9F94005E945B /* AppDelegate.swift */,
 				99A84BBC283B9F94005E945B /* SceneDelegate.swift */,
 				99A84BBE283B9F94005E945B /* ViewController.swift */,
+				99A84C10283BAA61005E945B /* CustomTableViewCell.swift */,
 				99A84BC0283B9F94005E945B /* Main.storyboard */,
 				99A84BC3283B9F95005E945B /* Assets.xcassets */,
 				99A84BC5283B9F95005E945B /* LaunchScreen.storyboard */,
 				99A84BC8283B9F95005E945B /* Info.plist */,
 			);
 			path = "Project 01 - GoodAsOldPhones";
+			sourceTree = "<group>";
+		};
+		A78436387AE51DAA53D303B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				273A5B4B33FC9A4BF9705B89 /* Pods-Project 01 - GoodAsOldPhones.debug.xcconfig */,
+				0494E2E40426AD330F9446FC /* Pods-Project 01 - GoodAsOldPhones.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE1BE1FF9F0EA6BF4BAC6B44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACEDF79EB219110C679A78A9 /* Pods_Project_01___GoodAsOldPhones.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99A84BCB283B9F95005E945B /* Build configuration list for PBXNativeTarget "Project 01 - GoodAsOldPhones" */;
 			buildPhases = (
+				829807A1A35B503BE04F55D7 /* [CP] Check Pods Manifest.lock */,
 				99A84BB3283B9F94005E945B /* Sources */,
 				99A84BB4283B9F94005E945B /* Frameworks */,
 				99A84BB5283B9F94005E945B /* Resources */,
+				8D2724DC56FECFEF0F64F287 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +163,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		829807A1A35B503BE04F55D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Project 01 - GoodAsOldPhones-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D2724DC56FECFEF0F64F287 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Project 01 - GoodAsOldPhones/Pods-Project 01 - GoodAsOldPhones-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Project 01 - GoodAsOldPhones/Pods-Project 01 - GoodAsOldPhones-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Project 01 - GoodAsOldPhones/Pods-Project 01 - GoodAsOldPhones-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		99A84BB3283B9F94005E945B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +212,7 @@
 			files = (
 				99A84BBF283B9F94005E945B /* ViewController.swift in Sources */,
 				99A84BBB283B9F94005E945B /* AppDelegate.swift in Sources */,
+				99A84C11283BAA61005E945B /* CustomTableViewCell.swift in Sources */,
 				99A84BBD283B9F94005E945B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +355,7 @@
 		};
 		99A84BCC283B9F95005E945B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273A5B4B33FC9A4BF9705B89 /* Pods-Project 01 - GoodAsOldPhones.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +384,7 @@
 		};
 		99A84BCD283B9F95005E945B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0494E2E40426AD330F9446FC /* Pods-Project 01 - GoodAsOldPhones.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
