@@ -9,10 +9,6 @@ import UIKit
 
 
 class ViewController: UIViewController {
-    private let tableView: UITableView = {
-        let tableView = UITableView()
-        return tableView
-    }()
     
     
     override func viewDidLoad() {

@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+class Model {
+    var name: String?
+    var cellImageName: String?
+    var fullImageName: String?
+    
+    init(name: String, cellImageName: String, fullImageName: String) {
+        self.name = name
+        self.cellImageName = cellImageName
+        self.fullImageName = fullImageName
+    }
+}

@@ -13,7 +13,11 @@
 		99A84BC2283B9F94005E945B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A84BC0283B9F94005E945B /* Main.storyboard */; };
 		99A84BC4283B9F95005E945B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A84BC3283B9F95005E945B /* Assets.xcassets */; };
 		99A84BC7283B9F95005E945B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A84BC5283B9F95005E945B /* LaunchScreen.storyboard */; };
-		99A84C11283BAA61005E945B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A84C10283BAA61005E945B /* CustomTableViewCell.swift */; };
+		99C208EA283CBE1F00798688 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C208E9283CBE1F00798688 /* Model.swift */; };
+		99C208EC283CC09100798688 /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C208EB283CC09100798688 /* tableViewController.swift */; };
+		99C208EF283CC0D600798688 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C208ED283CC0D600798688 /* CustomTableViewCell.swift */; };
+		99C208F0283CC0D600798688 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C208EE283CC0D600798688 /* CustomTableViewCell.xib */; };
+		99C208F4283CC16D00798688 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C208F3283CC16D00798688 /* MeViewController.swift */; };
 		C9B5F8BAB480BA3CA94D4167 /* Pods_Project_01___GoodAsOldPhones.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEDF79EB219110C679A78A9 /* Pods_Project_01___GoodAsOldPhones.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +32,12 @@
 		99A84BC3283B9F95005E945B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99A84BC6283B9F95005E945B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99A84BC8283B9F95005E945B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99A84C10283BAA61005E945B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
-		ACEDF79EB219110C679A78A9 /* Pods_Project_01___GoodAsOldPhones.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project_01___GoodAsOldPhones.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C208E9283CBE1F00798688 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		99C208EB283CC09100798688 /* tableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
+		99C208ED283CC0D600798688 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		99C208EE283CC0D600798688 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		99C208F3283CC16D00798688 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		ACEDF79EB219110C679A78A9 /* Pods_Project_01___GoodAsOldPhones.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Project_01___GoodAsOldPhones.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +76,15 @@
 				99A84BBA283B9F94005E945B /* AppDelegate.swift */,
 				99A84BBC283B9F94005E945B /* SceneDelegate.swift */,
 				99A84BBE283B9F94005E945B /* ViewController.swift */,
-				99A84C10283BAA61005E945B /* CustomTableViewCell.swift */,
 				99A84BC0283B9F94005E945B /* Main.storyboard */,
+				99C208F3283CC16D00798688 /* MeViewController.swift */,
 				99A84BC3283B9F95005E945B /* Assets.xcassets */,
 				99A84BC5283B9F95005E945B /* LaunchScreen.storyboard */,
 				99A84BC8283B9F95005E945B /* Info.plist */,
+				99C208E9283CBE1F00798688 /* Model.swift */,
+				99C208EB283CC09100798688 /* tableViewController.swift */,
+				99C208ED283CC0D600798688 /* CustomTableViewCell.swift */,
+				99C208EE283CC0D600798688 /* CustomTableViewCell.xib */,
 			);
 			path = "Project 01 - GoodAsOldPhones";
 			sourceTree = "<group>";
@@ -83,7 +95,6 @@
 				273A5B4B33FC9A4BF9705B89 /* Pods-Project 01 - GoodAsOldPhones.debug.xcconfig */,
 				0494E2E40426AD330F9446FC /* Pods-Project 01 - GoodAsOldPhones.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -157,6 +168,7 @@
 			files = (
 				99A84BC7283B9F95005E945B /* LaunchScreen.storyboard in Resources */,
 				99A84BC4283B9F95005E945B /* Assets.xcassets in Resources */,
+				99C208F0283CC0D600798688 /* CustomTableViewCell.xib in Resources */,
 				99A84BC2283B9F94005E945B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,10 +222,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C208EF283CC0D600798688 /* CustomTableViewCell.swift in Sources */,
+				99C208F4283CC16D00798688 /* MeViewController.swift in Sources */,
 				99A84BBF283B9F94005E945B /* ViewController.swift in Sources */,
 				99A84BBB283B9F94005E945B /* AppDelegate.swift in Sources */,
-				99A84C11283BAA61005E945B /* CustomTableViewCell.swift in Sources */,
 				99A84BBD283B9F94005E945B /* SceneDelegate.swift in Sources */,
+				99C208EA283CBE1F00798688 /* Model.swift in Sources */,
+				99C208EC283CC09100798688 /* tableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
